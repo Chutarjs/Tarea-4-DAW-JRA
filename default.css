@@ -1,0 +1,116 @@
+body{
+    background-image: url("images/background.png");
+    background-size: contain;
+}
+
+#Principal{
+    margin: 40px auto;
+    padding: 10px;
+    background-color: white;
+    width: 920px;
+}
+
+header{
+    background-image: url("images/banner.jpg");
+    height: 250px;
+    width: 880px;
+    margin: 0 auto;
+    color: green;
+    position: relative;
+}
+
+header h1{
+    padding: 30px;
+    font-size: 50px;
+}
+
+nav{
+    width: 880px;
+    height: 35px;
+    background-color: #488000;
+    color: white;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+}
+
+nav a{
+    color: rgb(255, 255, 255);
+    padding: 10px;
+    text-decoration: none;
+    border-right: 1px solid white;
+}
+
+nav a.last{
+    border-right: 0px;
+}
+
+nav a:hover{
+    text-decoration: underline;
+}
+
+#Contenido{
+    display: flex;
+    width: 880px;
+    margin: 0 auto;
+}
+
+aside{
+    width: 200px;
+    margin: 0 20px;
+}
+
+aside h2{
+    font-weight: bold;
+}
+
+aside h3{
+    color: greenyellow;
+}
+
+aside img{
+    float: left;
+    margin-right: 10px;
+}
+
+aside p{
+    text-align: justify;
+}
+
+main{
+    width: 600px;
+    position: relative;
+    margin: 0 20px;
+}
+
+main h2{
+    font-weight: bold;
+}
+
+main img{
+    float: left;
+    margin: 5px;
+    width: 210px;
+}
+
+main p{
+    text-align: justify;
+    font-size: 17px;
+}
+
+footer{
+    width: 880px;
+    margin: 0 auto;
+    height: 35px;
+    display: flex;
+    background-color: #488000;
+    align-items: center;
+    justify-content: center;
+}
+
+footer a{
+    color: #FFF;
+    text-decoration: none;
+    margin: 5px;
+    padding: 0px;
+}
